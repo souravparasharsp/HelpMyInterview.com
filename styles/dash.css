@@ -1,0 +1,370 @@
+.inline-buttons .one-third {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1076px) {
+
+    .inline-buttons .one-third {
+        width: 100%;
+        margin: 20px;
+    }
+    
+}
+
+h1{
+  margin-top:7px;
+  color:black;
+  background-color:#e8f7ea;
+  text-decoration:underline;
+  width:24%;
+}
+h3{
+  margin-top:10px;
+  text-align:right;
+  font-family: 'Segoe UI',Arial,sans-serif;
+  letter-spacing: 4px;
+  margin-right:10px;
+  text-decoration: underline;
+  
+}
+.hd{
+  text-align: center;
+}
+.modal_container{
+    width:100%;
+    height:100%;
+    pointer-events: none;
+    opacity: 0;
+    position:fixed;
+    background:rgba(2, 70, 88, 0.8);
+    transition:all 500ms ease;
+}
+
+.modal_container:target{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modal_container > div{
+    transform: translate(0px, -50px);
+  transition: all 500ms ease;
+}
+
+.modal_container:target > div{
+    transform: translate(0px, 0px);
+}
+
+
+.modal{
+    width:350px;
+    height:400px;
+    margin:auto;
+    position: absolute;
+    top:0px; bottom:0px;
+    right:0px; left:0px;
+    background:black;
+    border:2px solid #222;
+    padding:20px;
+    box-shadow: 0px 0px 50px 5px black;
+}
+
+.modal_heading{
+    box-sizing: border-box;
+    width:100%;
+    display:block;
+    height:60px;
+    margin-bottom:30px;
+    color:yellow;
+    padding:10px;
+    text-align: center;
+    font-size:20pt;
+    font-family: big john;
+    border-bottom: 2px solid #fefefe;
+}
+
+input{
+    margin-bottom: 15px;
+    padding:10px;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height:50px;
+    border:0px;
+    font-family: georgia;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.btnRegister{
+    background:red;
+    color:white;
+    font-size:15pt;
+    margin-top:10px;
+}
+.btnRegister:hover{
+    background:#b80000;
+}
+.close{
+    color:white;
+    position: absolute;
+    border:2px solid #333;
+    padding:7px 9px 11px 9px;
+    font-family: big john;
+    background:black;
+    text-decoration: none;
+    top:-20px;
+    right:-20px;
+    border-radius: 50%;
+    transition: background 500ms;
+}
+
+.close:hover{
+    background:#444;
+    cursor:pointer;
+}
+
+.signin{
+    color:white;
+    display:inline-block;
+    margin-top:15px;
+    text-align: left;
+    float:left;
+    text-decoration: none;
+    font-size: 13pt;
+}
+.forgotPassword{
+    color:white;
+    display:inline-block;
+    margin-top:15px;
+    text-align: right;
+    float:right;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.signin:hover, .forgotPassword:hover{
+    text-decoration: underline;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:    #e8f7ea;
+
+}
+.hd{
+  color: mediumseagreen;
+  padding-top: 5px;
+  font-size: 40px;
+  text-align: center;
+}
+.topnav
+{
+	background-color:mediumseagreen;
+	width:100%;
+	overflow:hidden;
+	font-family:Arial;
+	margin-top:5px;
+  display: inline-block;
+}
+
+.topnav a{
+	float:left;
+	color:white;
+	padding :14px 40px;
+	font-size: 19px;
+	text-decoration:none;
+}
+.topnav a:hover{
+	background-color:gray;
+	color:black;
+}
+.topnav a.active {
+    background-color:mediumseagreen;
+    color: black;
+}
+.dropdown{
+	float:left;
+	overflow:hidden;
+}
+.dropdown .dropbtn{
+	font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:gray;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color:mediumseagreen;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    height:80%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color:mediumseagreen;
+}
+
+
+.tab button.active {
+    background-color: mediumseagreen;
+}
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+display:block;
+}
+h2{
+margin-left: 65px;
+text-shadow:1px 0px 3px gray;
+}
+h3{
+font-size:18px;
+text-align:center;
+text-shadow:1px 0px 3px gray;
+}
+#onclick{
+padding:3px;
+color:green;
+cursor:pointer;
+padding:5px 5px 5px 15px;
+width:70px;
+color:white;
+background-color:#123456;
+box-shadow:1px 1px 5px grey;
+border-radius:3px;
+}
+b{
+font-size:18px;
+text-shadow:1px 0px 3px gray;
+}
+#popup{
+padding-top:80px;
+}
+.form{
+border-radius:2px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 35px;
+float:left;
+}
+input{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+input[type=button]{
+background-color:#123456;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+width:49%;
+}
+textarea{
+width:100%;
+height:80px;
+margin-top:5px;
+border-radius:3px;
+padding:5px;
+resize:none;
+}
+#contactdiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #000;
+display: none;
+}
+#logindiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+background: #000;
+display: none;
+}
+
+#login,#contact{
+width:350px;
+margin:0px;
+background-color:white;
+font-family: 'Fauna One', serif;
+position: relative;
+border: 5px solid rgb(90, 158, 181);
+}
+.img{
+float: right;
+margin-top: -35px;
+margin-right: -37px;
+}
+#contact{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-255px;
+}
+#login{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-158px;
+}

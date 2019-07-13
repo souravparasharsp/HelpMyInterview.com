@@ -1,0 +1,15 @@
+h1{
+	background-color: #FAFAD2;
+
+}
+body{
+	background-color: #9ACD32;
+}
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+p{
+font-size: 30px;
+
+}
